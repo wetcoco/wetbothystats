@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const key = 'db7aa941-ce96-4fc5-a273-cde256fef6e9';
+const key = apikey;
 const base = 'https://api.hypixel.net';
 
 async function getPlayer(username) {
